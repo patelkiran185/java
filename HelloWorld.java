@@ -57,6 +57,7 @@ class inputarray{
        int min = Arrays.stream(arr).min().getAsInt();
        int max = Arrays.stream(arr).max().getAsInt();
        System.out.println("Difference is : "+(max-min));
-
+// javac HelloWorld.java
+//java inputarray
     }
 };
