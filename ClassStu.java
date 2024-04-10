@@ -44,3 +44,6 @@ public class ClassStu{
         s2.displayData();
     }
 }
+
+
+
