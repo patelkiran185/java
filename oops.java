@@ -12,10 +12,21 @@ public class oops {
         }
 
     }
+    public class SuperDog extends Dog{
+        String color;
+        SuperDog(){
+            super();
+            color="black";
+        }
+        public void printSuperDog(){
+            super.printDog();
+            System.out.println(color);
+        }
+    }
     public static void main(String[] args){
         oops oo=new oops();
-        Dog d=oo.new Dog();
-        d.printDog();
+        SuperDog sd=oo.new SuperDog();
+        sd.printSuperDog();
 
     }
 }
